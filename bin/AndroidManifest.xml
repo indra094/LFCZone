@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lfczone"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.lfczone.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.lfczone.History"
+            android:label="@string/app_name"
+           >
+            <intent-filter>
+            <action android:name="com.example.lfczone.History" />
+            <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.lfczone.Squad"
+            android:label="@string/app_name"
+           >
+            <intent-filter>
+            <action android:name="com.example.lfczone.Squad" />
+            <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.lfczone.FixRes"
+            android:label="@string/app_name"
+           >
+            <intent-filter>
+            <action android:name="com.example.lfczone.FixRes" />
+            <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.lfczone.Legends"
+            android:label="@string/app_name"
+           >
+            <intent-filter>
+            <action android:name="com.example.lfczone.Legends" />
+            <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.lfczone.Managers"
+            android:label="@string/app_name"
+           >
+            <intent-filter>
+            <action android:name="com.example.lfczone.Managers" />
+            <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.lfczone.Moments"
+            android:label="@string/app_name"
+           >
+            <intent-filter>
+            <action android:name="com.example.lfczone.Moments" />
+            <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.lfczone.Players"
+            android:label="@string/app_name"
+           >
+            <intent-filter>
+            <action android:name="com.example.lfczone.Players" />
+            <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.lfczone.YNWA"
+            android:label="@string/app_name"
+           >
+            <intent-filter>
+            <action android:name="com.example.lfczone.YNWA" />
+            <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+    </application>
+
+</manifest>

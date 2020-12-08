@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gerrard"
+     >
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#cf000000"
+        android:orientation="vertical" >
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/gerr"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+      		    	android:layout_weight="0.5"
+            android:layout_margin="10dp"
+            android:background="@drawable/gerr" />
+
+        <Button
+            android:id="@+id/luis"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+             android:layout_weight="0.5"
+            android:background="@drawable/luis" />
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/reina"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+      		    	android:layout_weight="0.5"
+            android:layout_margin="10dp"
+            android:background="@drawable/gerrard" />
+
+        <Button
+            android:id="@+id/dudek"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+             android:layout_weight="0.5"
+            android:background="@drawable/dudek" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/xabi"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+      		    	android:layout_weight="0.5"
+            android:layout_margin="10dp"
+            android:background="@drawable/xabi" />
+
+        <Button
+            android:id="@+id/carra"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+             android:layout_weight="0.5"
+            android:background="@drawable/carra" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/mcmana"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+      		    	android:layout_weight="0.5"
+            android:layout_margin="10dp"
+            android:background="@drawable/gerrard" />
+
+        <Button
+            android:id="@+id/fowler"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+             android:layout_weight="0.5"
+            android:background="@drawable/fowler" />
+    </LinearLayout>    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/hyppia"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+      		    	android:layout_weight="0.5"
+            android:layout_margin="10dp"
+            android:background="@drawable/hyypia" />
+
+        <Button
+            android:id="@+id/smicer"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+             android:layout_weight="0.5"
+            android:background="@drawable/smicer" />
+    </LinearLayout>    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/risse"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+      		    	android:layout_weight="0.5"
+            android:layout_margin="10dp"
+            android:background="@drawable/riise" />
+
+        <Button
+            android:id="@+id/hamann"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+             android:layout_weight="0.5"
+            android:background="@drawable/didi" 
+            />
+    </LinearLayout>    
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

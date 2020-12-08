@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/cheers"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="Welcome to Liverpool Football Club!Feel free to explore!"
+        android:textSize="20dp" />
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+ <LinearLayout
+     android:id="@+id/t0"
+     android:layout_width="match_parent"
+     android:layout_height="150dp"
+     android:layout_margin="10dp"
+     android:background="@drawable/hist"
+    >
+
+             <Button
+            android:id="@+id/bhist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        	android:text="History.."
+        	android:textStyle="italic"
+        	android:fontFamily="sans-serif-thin"
+        	android:textSize="40dp"
+        	android:textColor="#ffffff"
+      
+        	
+            android:background="@color/blackTrans"
+            android:height="150dp"
+            />
+   </LinearLayout>
+    <LinearLayout
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:height="150dp"
+        android:background="@drawable/sqd" >
+             <Button
+            android:id="@+id/bsqd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        	android:text="The Current Scousers!"
+        	android:textSize="40dp"
+        	android:textColor="#ffffff"
+      
+        	android:textStyle="italic"
+        	android:fontFamily="sans-serif-thin"
+            android:background="@color/blackTrans"
+            android:height="150dp"
+            />
+   </LinearLayout>
+   
+    <LinearLayout
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+     
+        android:background="@drawable/gerrxab" >
+             <Button
+            android:id="@+id/bplrs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        	android:text="The ones who left a mark.."
+        	android:textSize="40dp"
+        	android:textColor="#ffffff"
+      
+        	android:textStyle="italic"
+        	android:fontFamily="sans-serif-thin"
+            android:background="@color/blackTrans"
+            android:height="150dp"
+            />
+   </LinearLayout>
+   
+    <LinearLayout
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+       
+        android:background="@drawable/moments" >
+             <Button
+            android:id="@+id/bmoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        	android:text="Moments.."
+        	android:textSize="40dp"
+        	android:textColor="#ffffff"
+      
+        	android:textStyle="italic"
+        	android:fontFamily="sans-serif-thin"
+            android:background="@color/blackTrans"
+            android:height="150dp"
+            />
+   </LinearLayout>
+   
+    <LinearLayout
+        android:id="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        
+        android:background="@drawable/klopp" >
+             <Button
+            android:id="@+id/bmans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        	android:text="Managers of the past and the present!"
+        	android:textSize="40dp"
+        	android:textColor="#ffffff"
+      
+        	android:textStyle="italic"
+        	android:fontFamily="sans-serif-thin"
+            android:background="@color/blackTrans"
+            android:height="150dp"
+            />
+   </LinearLayout>
+   
+    <LinearLayout
+        android:id="@+id/t5"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        
+        android:background="@drawable/fixres" >
+             <Button
+            android:id="@+id/bfixres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        	android:text="Fixtures and Results.."
+        	android:textSize="40dp"
+        	android:textColor="#ffffff"
+      
+        	android:textStyle="italic"
+        	android:fontFamily="sans-serif-thin"
+            android:background="@color/blackTrans"
+            android:height="150dp"
+            />
+   </LinearLayout>
+   
+    <LinearLayout
+        android:id="@+id/t6"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+      
+        android:background="@drawable/gerrard" >
+             <Button
+            android:id="@+id/blegs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        	android:text="Legends!!"
+        	android:textSize="40dp"
+        	android:textColor="#ffffff"
+      
+        	android:textStyle="italic"
+        	android:fontFamily="sans-serif-thin"
+            android:background="@color/blackTrans"
+            android:height="150dp"
+            />
+   </LinearLayout>
+   
+    <LinearLayout
+        android:id="@+id/t7"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+   
+        android:background="@drawable/ynwa" >
+             <Button
+            android:id="@+id/bynwa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        	android:text="Y.N.W.A"
+        	android:textSize="40dp"
+        	android:textColor="#ffffff"
+      
+        	android:textStyle="italic"
+        	android:fontFamily="sans-serif-thin"
+            android:background="@color/blackTrans"
+            android:height="150dp"
+            />
+   </LinearLayout>
+    <LinearLayout
+        android:id="@+id/t8"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+       
+        android:background="@drawable/lfcbes" >
+             <Button
+            android:id="@+id/bbye"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        	android:text="Ciao Ciao:)"
+        	android:textSize="40dp"
+        	android:textColor="#ffffff"
+      
+        	android:textStyle="italic"
+        	android:fontFamily="sans-serif-thin"
+            android:background="@color/blackTrans"
+            android:height="150dp"
+            />
+   </LinearLayout> 
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
